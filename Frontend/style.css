@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #fff;
+  padding: 2em;
+  border-radius: 1em;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.login-container h1 {
+  margin-bottom: 1em;
+  color: #333;
+}
+
+input {
+  display: block;
+  width: 92.5%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+button {
+  background: #4ca1af;
+  color: white;
+  border: none;
+  padding: 0.9em;
+  width: 100%;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #357f8a;
+}
+
+#msg {
+  margin-top: 1em;
+  color: red;
+}
+
+.admin-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 3em auto;
+  background: #fff;
+  border-radius: 1em;
+  padding: 2em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+header h1 {
+  color: #333;
+}
+
+#logoutBtn {
+  background: #d9534f;
+  color: #fff;
+  width: 13%;
+  border: none;
+  padding: 1em 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+#logoutBtn:hover {
+  background: #c9302c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.8em;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background: #4ca1af;
+  color: white;
+}
+tr:hover {
+  background: #f3f3f3;
+}
